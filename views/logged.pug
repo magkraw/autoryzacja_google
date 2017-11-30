@@ -1,0 +1,8 @@
+html
+  head
+    title Ekran powitania
+    link(href="/style.css", rel="stylesheet")
+  body
+    if(user)
+      h2 Ekran powitania
+      h1 Hi, #{user.displayName}
